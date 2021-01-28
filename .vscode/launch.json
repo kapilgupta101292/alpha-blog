@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Rails server",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/bin/rails",
+            "env": {
+                "PATH": "/home/kapilgupta/.rvm/gems/ruby-2.6.6/bin:/home/kapilgupta/.rvm/gems/ruby-2.6.6@global/bin:/home/kapilgupta/.rvm/rubies/ruby-2.6.6/bin:/home/kapilgupta/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kapilgupta/.rvm/bin:/home/kapilgupta/.rvm/bin:/home/kapilgupta/.rvm/bin:/home/kapilgupta/.rvm/bin:/home/kapilgupta/.rvm/bin",
+                "GEM_HOME": "/home/kapilgupta/.rvm/gems/ruby-2.6.6",
+                "GEM_PATH": "/home/kapilgupta/.rvm/gems/ruby-2.6.6:/home/kapilgupta/.rvm/gems/ruby-2.6.6@global",
+                "RUBY_VERSION": "ruby-2.6.6"
+              },
+            "args": [
+                "server"
+            ]
+        }
+    ]
+}
